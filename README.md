@@ -1,0 +1,2 @@
+# Vidzy
+MEANStackApplication
