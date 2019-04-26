@@ -1,0 +1,17 @@
+
+    <h1>Home</h1>
+    <ul>
+        <li ng-repeat='video in videos' style="list-style-type:none;padding:10px;">
+            <a href="/#/video/{{video._id}}">
+            <img ng-src="../images/{{video._id}}.jpg" style="width:200px;height:200px;"><br>
+            {{video.title}}
+            </a>
+            <a href="/#/video/delete/{{video._id}}">
+                <i class="glyphicon glyphicon-remove"></i>
+            </a>
+            <br><br>
+        </li>
+
+    </ul>
+    <br>
+    <a href="/#/add-video" >Add new Video</a>
